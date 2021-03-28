@@ -1,0 +1,25 @@
+body {
+  height: 700px;
+  background: url("/img/pic.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.checked {
+  background: rgb(58, 185, 245);
+  color: #fff;
+  text-decoration: line-through;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 8px 16px;
+}
+
+.card-title {
+  text-align: center;
+  height: 3rem;
+  padding-top: 1rem;
+}
